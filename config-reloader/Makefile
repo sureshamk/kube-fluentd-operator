@@ -1,7 +1,7 @@
 # Copyright © 2018 VMware, Inc. All Rights Reserved.
 # SPDX-License-Identifier: BSD-2-Clause
 
-IMAGE            ?= vmware/kube-fluentd-operator
+IMAGE            ?= sureshamk/kube-fluentd-operator
 TAG              ?= latest
 
 VERSION          ?= $(shell git describe --tags --always --dirty)
